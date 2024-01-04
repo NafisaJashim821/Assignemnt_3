@@ -34,3 +34,16 @@ console.log(isJavaScriptFile(file2));
 console.log(isJavaScriptFile(file3)); 
 console.log(isJavaScriptFile(file4)); 
 
+//problem 3
+
+function radianToDegree(radian) {
+    let degree = radian * (180/Math.PI);
+    return parseFloat(degree.toFixed(2));
+}
+let d1 = radianToDegree(10);
+let d2 = radianToDegree(25);
+let d3 = radianToDegree(199);
+
+console.log(d1);
+console.log(d2);
+console.log(d3);
